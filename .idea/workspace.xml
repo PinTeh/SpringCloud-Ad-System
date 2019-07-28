@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e795670-7f7e-41c6-a347-222517587dbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/constant/CommonStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/UserRepostory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/AdPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/AdUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/AdUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/Creative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/unitCondition/AdUnitDistrict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/unitCondition/AdUnitIt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/unitCondition/AdUnitKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/unitCondition/CreativeUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/AdPlanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/AdUnitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/CreativeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/UserRepostory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/AdUserRepostory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,26 +22,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/Creative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -94,6 +70,16 @@
         <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/unit_condition/AdUnitDistrict.java" />
         <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/unit_condition/CreativeUnit.java" />
         <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/Creative.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/constant/createMertrialType.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/constant/createMetrialType.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/constant/creativeMaterialType.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/constant/CreativeTyoe.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/constant/creativeTyoe.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/constant/CreativeType.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/constant/CreativeMaterialType.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/AdPlanRepository.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/AdUnitRepository.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/CreativeRepository.java" />
       </list>
     </option>
   </component>
@@ -190,6 +176,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="egg-ad-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="egg-ad-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-sponsor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,7 +225,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564299169621" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564299755420" />
     <property name="last_opened_file_path" value="D:/Program Files/Git" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -281,12 +278,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564127677439</updated>
       <workItem from="1564127682415" duration="13716000" />
-      <workItem from="1564297854604" duration="1307000" />
+      <workItem from="1564297854604" duration="1832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15023000" />
+    <option name="totallyTimeSpent" value="15548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
@@ -307,7 +304,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32901135" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32797858" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32707775" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -494,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/UserRepostory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ad-service/ad-common/src/main/java/cn/imhtb/ad/advice/GlobalExceptionAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -598,10 +585,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/constant/CreativeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/constant/CreativeMaterialType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/entity/Creative.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="734">
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/AdPlanRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/AdUnitRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/CreativeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/cnn/imhtb/ad/dao/AdUserRepostory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
