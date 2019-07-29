@@ -17,4 +17,5 @@ public class AdPlanGetRequest {
 
     private Long userId;
     private List<Long> ids;
+
 }
