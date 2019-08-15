@@ -21,6 +21,10 @@ spring:
     properties:
       hibernate.format_sql: ture
     open-in-view: false
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    listener:
+      concurrency: 4
 
 eureka:
   client:
